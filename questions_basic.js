@@ -78,8 +78,8 @@ const basicQuestions = [
     },
     {
         question: "영어: to break, 이탈리아어: rompere\n이 동사의 한국어 과거형은?",
-        options: ["부숴 / 부숴요 / 부숩니다", "부숴서 / 부숴서요 / 부숴습니다", "부술 거야 / 부술 거예요 / 부술 겁니다", "부수지 않아요"],
-        correctAnswer: "부숴서 / 부숴서요 / 부숴습니다"
+        options: ["부숴 / 부숴요 / 부숩니다", "부쉈어 / 부쉈어요 / 부쉈습니다", "부술 거야 / 부술 거예요 / 부술 겁니다", "부수지 않아요"],
+        correctAnswer: "부쉈어 / 부쉈어요 / 부쉈습니다"
     },
     {
         question: "영어: to open, 이탈리아어: aprire\n이 동사의 한국어 미래형은?",
