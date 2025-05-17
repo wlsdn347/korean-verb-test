@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Verb Conjugation Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Category selection screen -->
+    <div id="category-container" class="container">
+        <h1>Korean Verb Conjugation Test</h1>
+        <p>Select a verb category you want to practice:</p>
+        <div class="category-buttons">
+            <button onclick="selectCategory('basic')">Basic Verbs + Complex Verbs (Part 1)</button>
+            <button onclick="selectCategory('complex')">Complex Verbs (Part 2) + Emotion Verbs (Part 1)</button>
+            <button onclick="selectCategory('emotion')">Emotion Verbs (Part 2) + Daily Life Verbs (Part 1)</button>
+            <button onclick="selectCategory('daily')">Daily Life Verbs (Part 2) + Hobby Verbs</button>
+        </div>
+    </div>
+
+    <!-- Start screen -->
+    <div id="start-container" class="container" style="display: none;">
+        <h2>Test Instructions</h2>
+        <p>You will be given 25 random questions from the selected category.</p>
+        <p>Each question has 4 options with informal, semi-formal, and formal conjugations.</p>
+        <p>Choose the correct conjugation based on the English and Italian translations provided.</p>
+        <button onclick="startTest()">Start Test</button>
+        <button onclick="showCategorySelection()" class="secondary-button">Select Different Category</button>
+    </div>
+
+    <!-- Test screen -->
+    <div id="test-container" class="container" style="display: none;">
+        <div id="question-container"></div>
+    </div>
+
+    <!-- Result screen -->
+    <div id="result-container" class="container" style="display: none;"></div>
+
+    <!-- Question data files -->
+    <script src="questions_basic.js"></script>
+    <script src="questions_complex.js"></script>
+    <script src="questions_emotion.js"></script>
+    <script src="questions_daily.js"></script>
+    
+    <!-- Main script -->
+    <script src="script.js"></script>
+</body>
+</html> 
